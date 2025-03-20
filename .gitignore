@@ -1,4 +1,190 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+.calculator {
+  max-width: 350px;
+  background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5),
+              inset 0px 2px 2px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  backdrop-filter: blur(10px);
+}
+
+.display {
+  width: 100%;
+  height: 80px;
+  text-align: right;
+  font-size: 36px;
+  background: #1c1c1c;
+  color: #00ff9d;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: 'Digital', monospace;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.display:focus {
+  outline: none;
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3),
+              0 0 15px rgba(0, 255, 157, 0.3);
+}
+
+.btn-custom {
+  width: 100%;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  margin: 6px 0;
+  background: linear-gradient(145deg, #2e2e2e, #252525);
+  color: white;
+  transition: all 0.2s ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+              -5px -5px 10px rgba(255, 255, 255, 0.05);
+}
+
+.btn-custom:hover {
+  background: linear-gradient(145deg, #323232, #292929);
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4),
+              -6px -6px 12px rgba(255, 255, 255, 0.07);
+}
+
+.btn-custom:active {
+  transform: translateY(1px);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2),
+              -3px -3px 6px rgba(255, 255, 255, 0.04);
+}
+
+.btn-warning {
+  background: linear-gradient(145deg, #ff9500, #ff7600);
+  color: white;
+}
+
+.btn-danger {
+  background: linear-gradient(145deg, #ff3b30, #dc3545);
+  color: white;
+}
+
+.btn-primary {
+  background: linear-gradient(145deg, #007aff, #0056b3);
+  color: white;
+}
+
+.btn-secondary {
+  background: linear-gradient(145deg, #3a3a3a, #2d2d2d);
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .calculator {
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  .btn-custom {
+    height: 55px;
+    font-size: 20px;
+  }
+}.calculator {
+  max-width: 350px;
+  background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5),
+              inset 0px 2px 2px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  backdrop-filter: blur(10px);
+}
+
+.display {
+  width: 100%;
+  height: 80px;
+  text-align: right;
+  font-size: 36px;
+  background: #1c1c1c;
+  color: #00ff9d;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: 'Digital', monospace;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.display:focus {
+  outline: none;
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3),
+              0 0 15px rgba(0, 255, 157, 0.3);
+}
+
+.btn-custom {
+  width: 100%;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  margin: 6px 0;
+  background: linear-gradient(145deg, #2e2e2e, #252525);
+  color: white;
+  transition: all 0.2s ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+              -5px -5px 10px rgba(255, 255, 255, 0.05);
+}
+
+.btn-custom:hover {
+  background: linear-gradient(145deg, #323232, #292929);
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4),
+              -6px -6px 12px rgba(255, 255, 255, 0.07);
+}
+
+.btn-custom:active {
+  transform: translateY(1px);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2),
+              -3px -3px 6px rgba(255, 255, 255, 0.04);
+}
+
+.btn-warning {
+  background: linear-gradient(145deg, #ff9500, #ff7600);
+  color: white;
+}
+
+.btn-danger {
+  background: linear-gradient(145deg, #ff3b30, #dc3545);
+  color: white;
+}
+
+.btn-primary {
+  background: linear-gradient(145deg, #007aff, #0056b3);
+  color: white;
+}
+
+.btn-secondary {
+  background: linear-gradient(145deg, #3a3a3a, #2d2d2d);
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .calculator {
+    max-width: 300px;
+    padding: 15px;
+  }
+
+  .btn-custom {
+    height: 55px;
+    font-size: 20px;
+  }
+}# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
 /dist
